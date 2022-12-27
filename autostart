@@ -1,0 +1,10 @@
+feh --bg-scale ~/Pictures/wallpapers/a1.jpg &
+setxkbmap -model abnt2 -layout br -variant abnt2 
+xrandr -s 1920x1080 -r 60sh ~/.fehbg &
+nm-applet &
+volumeicon &
+conky &
+tint2 &
+xcompmgr &
+~/.config/polybar/launch.sh --hack 
+automatizaBateria
